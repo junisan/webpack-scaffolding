@@ -1,0 +1,15 @@
+@import "./vars.scss";
+@import "./fonts.scss";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
