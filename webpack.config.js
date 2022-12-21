@@ -78,7 +78,7 @@ module.exports = (props, {mode}) => {
 
     if (mode === 'development') {
         options.devServer = {
-            contentBase: path.resolve(__dirname, 'dist'),
+            static: path.resolve(__dirname, 'dist'),
             compress: true,
             historyApiFallback: true,
             port:3006
